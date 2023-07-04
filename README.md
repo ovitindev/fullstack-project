@@ -52,8 +52,6 @@ To facilitate testing the API, we provide a Postman collection file called `API.
 
 6. Now you can expand the collection and test the different API routes by sending the corresponding requests.
 
-Make sure to properly configure the necessary environment variables, such as an API base URL, to ensure the requests work correctly.
-
 # Installation and Local Execution
 
 ## Backend
@@ -94,4 +92,8 @@ npm run serve
 ```
 npm run build
 ```
+
+## MySQL
+
+Look for the database.sql file in the root of the project, and import the database
 
