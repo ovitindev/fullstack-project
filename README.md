@@ -34,7 +34,7 @@ This repository contains a system designed to demonstrate a person's ownership i
 
 # Online viewing
 
-To view the project online, enter the following link -> https://www.brasilagenda.com.br/front/
+To view the project online, enter the following link -> https://brasilagenda.com.br/front/
 
 # Testing an API in Postman
 
