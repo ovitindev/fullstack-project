@@ -1,16 +1,13 @@
 {
 	"info": {
-		"_postman_id": "651e5530-c7d2-4336-996d-558cf0c5992a",
-		"name": "project-2023",
+		"_postman_id": "f86f616d-5082-4106-8512-1d1b7d7373b5",
+		"name": "Participation-collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "23378120"
 	},
 	"item": [
 		{
 			"name": "get",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
 			"request": {
 				"method": "GET",
 				"header": [
@@ -20,33 +17,8 @@
 						"type": "text"
 					}
 				],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "first_name",
-							"value": "victor",
-							"type": "text"
-						},
-						{
-							"key": "last_name",
-							"value": "prado",
-							"type": "text"
-						},
-						{
-							"key": "participation",
-							"value": "12",
-							"type": "text"
-						},
-						{
-							"key": "color",
-							"value": "333",
-							"type": "text"
-						}
-					]
-				},
 				"url": {
-					"raw": "https://brasilagenda.com.br/API/",
+					"raw": "https://brasilagenda.com.br/API",
 					"protocol": "https",
 					"host": [
 						"brasilagenda",
@@ -54,8 +26,7 @@
 						"br"
 					],
 					"path": [
-						"API",
-						""
+						"API"
 					]
 				}
 			},
@@ -72,37 +43,8 @@
 						"type": "text"
 					}
 				],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "first_name",
-							"value": "victor",
-							"type": "text",
-							"disabled": true
-						},
-						{
-							"key": "last_name",
-							"value": "prado",
-							"type": "text",
-							"disabled": true
-						},
-						{
-							"key": "participation",
-							"value": "12",
-							"type": "text",
-							"disabled": true
-						},
-						{
-							"key": "color",
-							"value": "#054F77",
-							"type": "text",
-							"disabled": true
-						}
-					]
-				},
 				"url": {
-					"raw": "https://brasilagenda.com.br/API/2",
+					"raw": "https://brasilagenda.com.br/API/3",
 					"protocol": "https",
 					"host": [
 						"brasilagenda",
@@ -111,7 +53,7 @@
 					],
 					"path": [
 						"API",
-						"2"
+						"3"
 					]
 				}
 			},
@@ -143,12 +85,12 @@
 						},
 						{
 							"key": "participation",
-							"value": "12",
+							"value": "15",
 							"type": "text"
 						},
 						{
 							"key": "color",
-							"value": "#054F77",
+							"value": "#000",
 							"type": "text"
 						}
 					]
